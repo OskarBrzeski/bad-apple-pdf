@@ -1,0 +1,5 @@
+.venv/
+venv/
+
+__pycache__/
+bad_apple_pdf.egg-info/
