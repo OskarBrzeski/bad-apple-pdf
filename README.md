@@ -1,8 +1,9 @@
 # Bad Apple to PDF Converter
-A simple script which creates a PDF documents where each page is a frame from Bad Apple.
+A simple script which creates a PDF document where each page is a frame from Bad Apple.
+The document can be watched as a video by flipping through the pages fast enough.
 
 ## Installation
-Download this repo and enter the directory like so:
+Download this repo and enter the directory:
 ```bash
 git clone https://github.com/OskarBrzeski/bad-apple-pdf.git
 cd bad-apple-pdf
@@ -37,9 +38,5 @@ Once you have downloaded the dependencies (see previous section), you can run th
 ```bash
 bad-apple-pdf
 ```
-
-The script will temporarily store the video in the directory from which you called the script.
-It will also continuously save and overwrite an image file.
-Do not do anything with them.
 
 Once the script has finished, you will see `Bad Apple.pdf` inside the directory.
