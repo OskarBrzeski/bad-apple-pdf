@@ -1,5 +1,5 @@
 # Bad Apple to PDF Converter
-A simple script to which creates a PDF documents where each page is a frame from Bad Apple.
+A simple script which creates a PDF documents where each page is a frame from Bad Apple.
 
 ## Installation
 Download this repo and enter the directory like so:
