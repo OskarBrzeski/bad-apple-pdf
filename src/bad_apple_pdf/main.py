@@ -46,6 +46,7 @@ def main() -> None:
 
     pdf.output("Bad Apple.pdf")
     
+    del capture
     clean_up()
 
 
