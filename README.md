@@ -32,7 +32,8 @@ pip install -e .
 
 ## How to use
 This script is known to work on Linux Mint 21.2 and Windows 10 22H2.
-However, I would assume that this script works similarily on other Linux distributions as the only requirement is Python.
+However, I would assume that this script works similarily on other Linux distributions
+and versions of Windows as the only requirement is Python.
 
 Once you have downloaded the dependencies (see previous section), you can run the script as a command in your terminal:
 ```bash
