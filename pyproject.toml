@@ -1,0 +1,21 @@
+[project]
+name = "bad-apple-pdf"
+description = "Script which converts Bad Apple into a PDF"
+readme = "README.md"
+license = {text = "MIT License"}
+authors = [{name = "Oskar Brzeski", email = "oskar.brzeski.github@hotmail.com"}]
+version = "2024.1.28"
+requires-python = ">=3.10"
+dependencies = [
+    "fpdf2==2.7.7",
+    "opencv-python==4.9.0.80",
+    "tqdm==4.66.1",
+    "yt-dlp==2023.12.30",
+]
+
+[build-system]
+requires = ["setuptools>=59.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+bad-apple-pdf = "bad_apple_pdf.main:main"
