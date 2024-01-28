@@ -16,17 +16,24 @@ This script requires Python 3.10 or later to run. It also requires the following
 - yt-dlp
 
 This repo contains a `pyproject.toml` file which can be used to download the dependencies:
+### Linux
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e .
 ```
+### Windows
+```powershell
+python -m venv .venv
+.venv/Scripts/activate
+pip install -e .
+```
 
 ## How to use
-I can only validate that this script works as intended on Linux Mint 21.2.
-However, I would assume that this script works similarily on other Linux distributions and it should word on Windows too.
+This script is known to work on Linux Mint 21.2 and Windows 10 22H2.
+However, I would assume that this script works similarily on other Linux distributions as the only requirement is Python.
 
-Once you have downloaded the dependencies (see previous section), you can run the script like this:
+Once you have downloaded the dependencies (see previous section), you can run the script as a command in your terminal:
 ```bash
 bad-apple-pdf
 ```
@@ -35,4 +42,4 @@ The script will temporarily store the video in the directory from which you call
 It will also continuously save and overwrite an image file.
 Do not do anything with them.
 
-Once the script has finished, you will see a `Bad Apple.pdf` inside the directory.
+Once the script has finished, you will see `Bad Apple.pdf` inside the directory.
